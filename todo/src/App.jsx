@@ -24,7 +24,7 @@ function App() {
     }
 
     const handleOnDel = (itemDel) =>{
-      console.log(`delete item : ${itemDel}`);
+   
       const deleteClick = todoItem.filter(item => item.name !== itemDel)
       setTodoItem(deleteClick);
     }
