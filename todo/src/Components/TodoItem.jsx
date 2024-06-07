@@ -16,7 +16,7 @@ const TodoItem = ({todoName, todoDate, onDel}) => {
        {todoDate}
         </div>
     <div className="col-2">
-        <button type='button' className='btn btn-success' onClick={() => onDel(todoName)}>AddTodo</button>
+        <button type='button' className='btn btn-success' onClick={() => onDel(todoName)}>Remove Todo</button>
     </div>
   </div>
 </div>
